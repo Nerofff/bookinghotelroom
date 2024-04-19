@@ -1,0 +1,11 @@
+.BigArea {
+    background-color: #d1d9e1;
+    display: flex;
+    .SideBar {
+        flex-basis: 20%;
+        background-color: #f8f9fa;
+    }
+    .container {
+        flex-basis: 80%;
+    }
+}

@@ -1,0 +1,89 @@
+/*footer*/
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+    img {
+        user-select: none;
+        cursor: pointer;
+    }
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    p {
+        color: #fff;
+        &:hover {
+            color: #dba424;
+        }
+    }
+}
+
+.footer-col-2 img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+    li {
+        padding: 10px 0;
+        margin-right: 27px;
+        font-size: 18px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+            color: #dba424;
+        }
+        a {
+            color: #8a8a8a;
+            text-decoration: none;
+            &:hover {
+                color: #dba424;
+            }
+        }
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+.app-logo img {
+    width: 140px;
+}
+
+hr {
+    opacity: 1 !important;
+}
